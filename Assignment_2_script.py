@@ -14,8 +14,7 @@ h = input("What is the thickness of the reservoir")
 sw = input("What is the water saturation of the reservoir")
 boi = input("What is formation volume factor of the reservoir fluid")
 
-# Calculating STOIIP
-N = (7758*area*h*poro*(1-sw))/boi
+
 
 
 # The input parameters received with the Function input
@@ -29,6 +28,8 @@ h = float(h)
 sw = float(sw)
 boi = float(boi)
 
+# Calculating STOIIP
+N = (7758*area*h*poro*(1-sw))/boi
 
 # Displaying the output
 print('The amount of oil initially in place is ', N)
