@@ -19,3 +19,4 @@ elif i==1 or i==nx:
     block_cat = 'III'
 else:
     block_cat = 'I'
+print (block_cat)
